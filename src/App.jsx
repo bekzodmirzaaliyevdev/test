@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 
 function App() {
   const [data, setData] = useState([])
-  
+  console.log(data)
   const getProducts = async () => {
     try {
       const request = await fetch('https://dummyjson.com/products');
